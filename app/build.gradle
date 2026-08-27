@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.caglar.sivilsavunma'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.caglar.sivilsavunma'
+        minSdk 26
+        targetSdk 35
+        versionCode 500
+        versionName '5.0-S10FE'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+}
